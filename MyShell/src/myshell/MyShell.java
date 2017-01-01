@@ -36,6 +36,10 @@ public class MyShell {
             else if (input.equals("clear")) {
                 callClear();                
             }
+            else if(input.equals("run fabrika")) {
+                Fabrika.main(null);
+                while(true) {}
+            }
             else {
                 executeCommands(input);
             }
